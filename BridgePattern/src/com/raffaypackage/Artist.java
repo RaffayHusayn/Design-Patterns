@@ -5,7 +5,7 @@ public class Artist implements MediaResource{
 
     String url = "media link";
     String picture = "picture link";
-    String snippet = "Block of text";
+    String snippet = "J cole was born in 1985";
     String title = "J Cole";
     String type;
 

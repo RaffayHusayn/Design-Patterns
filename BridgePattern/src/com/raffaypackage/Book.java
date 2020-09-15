@@ -4,7 +4,7 @@ public class Book implements MediaResource {
 
     String url = "media link";
     String picture = "picture link";
-    String snippet = "Block of text";
+    String snippet = "Greatest Scifi book";
     String title = "Flowers for Algernon";
     String type;
 
