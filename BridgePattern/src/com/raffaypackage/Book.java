@@ -1,10 +1,21 @@
 package com.raffaypackage;
 
-public class ConcreteResource implements MediaResource{
+public class Book implements MediaResource {
+
     String url = "media link";
     String picture = "picture link";
     String snippet = "Block of text";
-    String title = "Title";
+    String title = "Flowers for Algernon";
+    String type;
+
+    public Book(){
+        this.type= "book";
+    }
+
+    @Override
+    public String resourceType() {
+        return type;
+    }
 
     @Override
     public String snippet() {
